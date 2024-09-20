@@ -13,9 +13,9 @@ const ThemeChanger = () => {
 
   return (
     <div className="flex items-center order-last ">
-      {theme === "dark" ? (
+      {theme === "light" ? (
         <button
-          onClick={() => setTheme("light")}
+          onClick={() => setTheme("dark")}
           className="text-gray-300 rounded-full outline-none focus:outline-none ">
           <span className="sr-only">Light Mode</span>
 

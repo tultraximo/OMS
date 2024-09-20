@@ -36,21 +36,19 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Is this product safe?",
+    answer: "Yes, this template is completely safe",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How is your service different from other mold or odor removal professional's?",
+    answer: "Same day service on most Odor and Mold problems. Did we mention organic?",
   },
   {
     question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    answer: "If you're not completely satisfied, you don't pay.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
-  },
+    question: "Does it work?",
+    answer: "Please see our reviews, this is the quickest and safest way to solve your mold or odor problems",
+  }
 ];

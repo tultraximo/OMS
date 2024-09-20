@@ -26,12 +26,12 @@ const benefitOne = {
     },
     {
       title: "Money-Back guarantee.",
-      desc: "We guarantee your satisfaction or you don't pay. The way it should be.",
+      desc: "We guarantee your satisfaction or you don't pay.",
       icon: <ChartBarSquareIcon />,
     },
     {
       title: "Best product on the market.",
-      desc: "Our 100% Organic product works. We wouldn't be in this business if it wasn't the best product for you and your loved ones.",
+      desc: "Our 100% Organic product works. We wouldn't be in this business if it wasn't the best product.",
       icon: <CursorArrowRaysIcon />,
     },
   ],

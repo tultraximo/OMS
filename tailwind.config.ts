@@ -16,6 +16,10 @@ const config: Config = {
       colors: {
         trueGray: colors.neutral,
       },
+      fontSize: {
+        'xl2': '1.375rem',
+        'xl3': '1.9rem', // Customize this value as needed (1.375rem is between 1.25rem (xl) and 1.5rem (2xl))
+      },
     },
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],

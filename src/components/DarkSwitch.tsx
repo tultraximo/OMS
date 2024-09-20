@@ -29,7 +29,7 @@ const ThemeChanger = () => {
         </button>
       ) : (
         <button
-          onClick={() => setTheme("dark")}
+          onClick={() => setTheme("light")}
           className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
           <span className="sr-only">Dark Mode</span>
           <svg

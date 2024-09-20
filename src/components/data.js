@@ -8,10 +8,10 @@ import {
 } from "@heroicons/react/24/solid";
 
 
-import benefitOneImg from "../../public/img/mold.jpeg";
-import benefitTwoImg from "../../public/img/smoke.jpg";
+import benefitOneImg from "../../public/img/mold";
+import benefitTwoImg from "../../public/img/smoke";
 
-import white_ape from "../../public/img/whiteape.png";
+import white_ape from "../../public/img/whiteape";
 
 
 const benefitOne = {

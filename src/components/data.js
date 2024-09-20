@@ -37,27 +37,27 @@ const benefitOne = {
   ],
 };
 
-// const benefitTwo = {
-//   title: "Residential and Commercial Mold and Odor removal",
-//   desc: "We serve both residential and commercial locations.",
-//   image: benefitTwoImg,
-//   bullets: [
-//     {
-//       title: "Residential",
-//       desc: "Our product is 100% organic and safe for residential use.",
-//       icon: <DevicePhoneMobileIcon />,
-//     },
-//     {
-//       title: "Commercial",
-//       desc: "No job is too small.",
-//       icon: <AdjustmentsHorizontalIcon />,
-//     },
-//     {
-//       title: "Property Managers",
-//       desc: "One of our most popular uses is to neutralize and remove odors from previous tenants.",
-//       icon: <SunIcon />,
-//     },
-//   ],
-// };
+const benefitTwo = {
+  title: "Residential and Commercial Mold and Odor removal",
+  desc: "We serve both residential and commercial locations.",
+  image: benefitOneImg,
+  bullets: [
+    {
+      title: "Residential",
+      desc: "Our product is 100% organic and safe for residential use.",
+      icon: <DevicePhoneMobileIcon />,
+    },
+    {
+      title: "Commercial",
+      desc: "No job is too small.",
+      icon: <AdjustmentsHorizontalIcon />,
+    },
+    {
+      title: "Property Managers",
+      desc: "One of our most popular uses is to neutralize and remove odors from previous tenants.",
+      icon: <SunIcon />,
+    },
+  ],
+};
 
-export { benefitOne };
+export { benefitOne, benefitTwo };

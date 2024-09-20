@@ -15,4 +15,3 @@ export function Container(props: Readonly<ContainerProps>) {
     </div>
   );
 }
-

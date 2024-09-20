@@ -7,7 +7,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
-import { benefitOne, benefitTwo } from "@/components/data";
+import { benefitOne } from "@/components/data";
 export default function Home() {
   return (
     <Container>
@@ -22,7 +22,7 @@ export default function Home() {
       </SectionTitle> */}
 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
 
       <SectionTitle
         preTitle="Watch a video"

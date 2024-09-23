@@ -24,14 +24,14 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Watch a video"
         title="Proof of our product in action."
       >
         Watch as we completely remove the mold from a house.
       </SectionTitle>
 
-      <Video videoId="IZ2P8OLdm2o" />
+      <Video videoId="IZ2P8OLdm2o" /> */}
 
       {/* <SectionTitle
         preTitle="Testimonials"

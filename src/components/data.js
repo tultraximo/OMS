@@ -9,7 +9,7 @@ import {
 
 
 import benefitOneImg from "../../public/img/mold.jpeg";
-// import benefitTwoImg from "../../public/img/smoke.jpg";
+import benefitTwoImg from "../../public/img/anti_cig.png";
 
 import white_ape from "../../public/img/whiteape.png";
 
@@ -40,7 +40,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "Residential and Commercial Mold and Odor removal",
   desc: "We serve both residential and commercial locations.",
-  image: benefitOneImg,
+  image: benefitTwoImg,
   bullets: [
     {
       title: "Residential",

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "APE Air Purified Environment",
   description: "Mold and Odor Removal Specialists.",
   icons: {
-    icon: "/apenobackgroundicon.png", // Update with the path to your favicon
+    icon: "/apenobackgroundicon.ico", // Update with the path to your favicon
   },
 };
 

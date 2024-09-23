@@ -8,6 +8,8 @@ import {
   DisclosureButton,
 } from "@headlessui/react";
 
+const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+
 export function PopupWidget() {
   const {
     register,
@@ -129,7 +131,7 @@ export function PopupWidget() {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value={accessKey}
                         {...register("apikey")}
                       />
                       <input

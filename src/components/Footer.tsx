@@ -18,13 +18,13 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100"
               >
                 <Image
-                  src="/img/whiteape.png"
+                  src="/img/BREEZI_LOGO.png"
                   alt="N"
                   width="32"
                   height="32"
                   className="w-8"
                 />
-                <span>Air Purified Environment</span>
+                <span>BREEZi</span>
               </Link>
             </div>
 

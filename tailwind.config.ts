@@ -15,6 +15,7 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        customBackground: "#EAF0F0",
       },
       fontSize: {
         'xl2': '1.375rem',

@@ -20,14 +20,14 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-xl2 font-medium text-black dark:text-gray-100">
               <span>
                 <Image
-                  src="/img/whiteape.png"
+                  src="/img/breezi_logo.png"
                   width="32"
                   alt="N"
                   height="32"
                   className="w-8"
                 />
               </span>
-            <span>Air Purified Environment</span>
+            <span>BREEZi</span>
           </span>
         </Link>
 

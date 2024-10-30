@@ -11,7 +11,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "APE Air Purified Environment",
+  title: "BREEZi: Mold & Odor ",
   description: "Mold and Odor Removal Specialists.",
   icons: {
     icon: "/apenobackgroundicon.ico", // Update with the path to your favicon
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-customBackground`}>
         <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>

@@ -18,7 +18,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100"
               >
                 <Image
-                  src="/img/BREEZI_LOGO.png"
+                  src="/img/breezi_logo.png"
                   alt="N"
                   width="32"
                   height="32"

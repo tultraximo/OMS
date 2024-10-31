@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "BREEZi: Mold & Odor ",
   description: "Mold and Odor Removal Specialists.",
   icons: {
-    icon: "/apenobackgroundicon.ico", // Update with the path to your favicon
+    icon: "/breezi_icon.ico", // Update with the path to your favicon
   },
 };
 

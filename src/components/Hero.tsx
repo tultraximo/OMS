@@ -11,7 +11,7 @@ export const Hero = () => {
             <h1 className="text-xl3 font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
               BREEZi Mold and Odor removal
             </h1>
-            <p className="pt-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 justify-center flex flex-wrap">
+            <p className="pt-5 text-xl leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300 justify-center flex flex-wrap">
               We provide MOLD and ODOR testing and removal with a 100% safe USDA ORGANIC solution.
             </p>
           </div>

@@ -26,8 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} bg-customBackground`}>
-        <ThemeProvider attribute="">
-        {/* <ThemeProvider attribute="class"> */}
+        <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>
           <Footer />

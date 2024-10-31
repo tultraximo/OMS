@@ -20,7 +20,7 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-xl2 font-medium text-black dark:text-gray-100">
               <span>
                 <Image
-                  src="/img/breezi_logo.png"
+                  src="/img/breezi_B_logo.png"
                   width="32"
                   alt="N"
                   height="32"

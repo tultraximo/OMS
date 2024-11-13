@@ -1,5 +1,7 @@
 import {
-  FaceSmileIcon,
+  ExclamationCircleIcon,
+  NoSymbolIcon,
+  BeakerIcon,
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
@@ -8,53 +10,53 @@ import {
 } from "@heroicons/react/24/solid";
 
 
-import benefitOneImg from "../../public/img/mold.jpeg";
-import benefitTwoImg from "../../public/img/anti_cig.png";
+import benefitOneImg from "../../public/img/4xmold.png";
+import benefitTwoImg from "../../public/img/4xfog.png";
 
 import white_ape from "../../public/img/whiteape.png";
 
 
 const benefitOne = {
-  title: "World Class Service",
-  desc: "We value excellence and professionalism above all. We want to save you time and fix your mold or odor issues as fast as humanly possible.",
+  title: "THE PROBLEM",
+  desc: "You have a mold problem. Toxic mold is wreaking havoc on your home. Air quality is in jeopardy.  ",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Same-Day Service",
-      desc: "If we can do it same-day, we will.",
-      icon: <FaceSmileIcon />,
+      title: "Surface Mold (Visible)",
+      desc: "Visible Mold: Black mold, penicillium, etc",
+      icon: <ExclamationCircleIcon />,
     },
     {
-      title: "Money-Back guarantee.",
-      desc: "We guarantee your satisfaction or you don't pay.",
-      icon: <ChartBarSquareIcon />,
+      title: "Airborne Mold (Invisible)",
+      desc: "Invisible Mold: Spores in the air",
+      icon: <BeakerIcon />,
     },
     {
-      title: "Best product on the market.",
-      desc: "Our 100% Organic product works. We wouldn't be in this business if it wasn't the best product.",
-      icon: <CursorArrowRaysIcon />,
+      title: "VISIBLE and INVISIBLE mold need to be eliminated!",
+      desc: "Unless both the Air and Surface are treated the problem will stay",
+      icon: <NoSymbolIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Residential and Commercial Mold and Odor removal",
-  desc: "We serve both residential and commercial locations.",
+  title: "THE SOLUTION",
+  desc: "Our unique fogging treatment allows us to eliminates both Surface AND AIRBORNE Mold infestation!",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Residential",
-      desc: "Our product is 100% organic and safe for residential use.",
+      title: "POWERFUL",
+      desc: "120x stronger than Bleach. Guaranteed to eliminate all surface and airborne mold!",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Commercial",
-      desc: "No job is too small.",
+      title: "SAFE",
+      desc: "The product we use to fog your home is 100% Safe USDA ORGANIC",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Property Managers",
-      desc: "One of our most popular uses is to neutralize and remove odors from previous tenants.",
+      title: "EFFECTIVE",
+      desc: "Our unique fogging treatment eliminates both Air and Surface mold. Leaving your home truly mold free.",
       icon: <SunIcon />,
     },
   ],

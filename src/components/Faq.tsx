@@ -45,7 +45,7 @@ const faqdata = [
   },
   {
     question: "What is your refund policy? ",
-    answer: "If you're not completely satisfied, you don't pay.",
+    answer: "We offer testing to prove mold is completely gone!",
   },
   {
     question: "Does it work?",

@@ -1,24 +1,25 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
+import ThumbtackIcon from "./ThumbtackIcon";
 
 export const Hero = () => {
   return (
     <>
       <Container className="flex flex-wrap">
         <div className="flex items-center justify-center w-full">
-          <div className="max-w-4xl">
-            <h1 className="text-xl3 font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
-              BREEZi: Organic Mold and Odor removal
+          <div className="max-w-6xl">
+            <h1 className="text-xl3 font-bold leading-snug tracking-tight text-gray-800 md:text-3xl lg:text-5xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
+              Breezi: Organic Mold and Odor Removal
             </h1>
-            <p className="pt-5 text-xl leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-300 justify-center flex flex-wrap">
-              We provide MOLD and ODOR testing and removal with a 100% safe USDA ORGANIC solution.
+            <p className="pt-5 text-xl leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
+              The Mold & Odor Removal Experts
             </p>
           </div>
         </div>
         {/* <div className="flex items-center justify-center w-full lg:w-1/2"></div> */}
       </Container>
-      {/* <Container>
+      <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-indigo-600">2000+</span>{" "}
@@ -27,7 +28,7 @@ export const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <AmazonLogo />
+              <ThumbtackIcon />
             </div>
             <div className="text-gray-400 dark:text-gray-400">
               <VerizonLogo />
@@ -43,7 +44,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </Container> */}
+      </Container>
     </>
   );
 };

@@ -9,11 +9,11 @@ export const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="flex items-center justify-center w-full">
           <div className="max-w-6xl">
-            <h1 className="text-xl3 font-bold leading-snug tracking-tight text-gray-800 md:text-3xl lg:text-5xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
+            <h1 className="text-l font-bold leading-snug tracking-tight text-gray-800 md:text-3xl lg:text-5xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
               Breezi: Organic Mold and Odor Removal
             </h1>
-            <p className="pt-5 text-xl leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
-              The Mold & Odor Removal Experts
+            <p className="pt-5 text-l leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
+              Home of Breezi's Cloudburst Technology
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export const Hero = () => {
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <ThumbtackIcon />
             </div>
-            <div className="text-gray-400 dark:text-gray-400">
+            {/* <div className="text-gray-400 dark:text-gray-400">
               <VerizonLogo />
             </div>
             <div className="text-gray-400 dark:text-gray-400">
@@ -38,10 +38,10 @@ export const Hero = () => {
             </div>
             <div className="pt-1 text-gray-400 dark:text-gray-400">
               <NetflixLogo />
-            </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            </div> */}
+            {/* <div className="pt-2 text-gray-400 dark:text-gray-400">
               <SonyLogo />
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

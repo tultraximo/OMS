@@ -7,6 +7,11 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  BoltIcon,
+  EyeDropperIcon,
+  HeartIcon,
+  ShieldCheckIcon,
+  SparklesIcon,
 } from "@heroicons/react/24/solid";
 
 
@@ -41,23 +46,23 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "THE SOLUTION",
-  desc: "Our unique fogging treatment allows us to eliminates both Surface AND AIRBORNE Mold infestation!",
+  desc: "Our unique fogging treatment allows us to eliminates both Surface AND Airborne Mold infestation!",
   image: benefitTwoImg,
   bullets: [
     {
       title: "POWERFUL",
       desc: "120x stronger than Bleach. Guaranteed to eliminate all surface and airborne mold!",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <BoltIcon />,
     },
     {
       title: "SAFE",
       desc: "The product we use to fog your home is 100% Safe USDA ORGANIC",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <ShieldCheckIcon />,
     },
     {
       title: "EFFECTIVE",
       desc: "Our unique fogging treatment eliminates both Air and Surface mold. Leaving your home truly mold free.",
-      icon: <SunIcon />,
+      icon: <SparklesIcon />,
     },
   ],
 };

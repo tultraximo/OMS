@@ -13,7 +13,7 @@ export const Hero = () => {
               Breezi: Organic Mold and Odor Removal
             </h1>
             <p className="pt-5 text-l leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
-              Home of Breezi's Cloudburst Technology
+              Home of Breezi Cloudburst Technology
             </p>
           </div>
         </div>

@@ -40,15 +40,15 @@ const faqdata = [
     answer: "Yes, 100% safe. USDA Organic.",
   },
   {
-    question: "How is your service different from other mold or odor removal professional's?",
-    answer: "Same day service on most Odor and Mold problems. Did we mention organic?",
+    question: "How is your service different from other mold or odor removal services?",
+    answer: "Did we mention organic?",
   },
   {
-    question: "What is your refund policy? ",
-    answer: "We offer testing to prove mold is completely gone!",
+    question: "How long does it take before we can use our home again? ",
+    answer: "Same day service on most Mold and Odor problems.",
   },
   {
     question: "Does it work?",
-    answer: "Please see our reviews, this is the quickest and safest way to solve your mold or odor problems",
+    answer: "Please see our reviews. This is the quickest and safest way to solve your mold or odor problems",
   }
 ];

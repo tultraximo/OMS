@@ -23,7 +23,7 @@ import white_ape from "../../public/img/whiteape.png";
 
 const benefitOne = {
   title: "THE PROBLEM",
-  desc: "You have a mold problem. Toxic mold is wreaking havoc on your home. Air quality is in jeopardy.  ",
+  desc: "You have a mold problem. Toxic mold is wreaking havoc in your home. Making it unsafe.",
   image: benefitOneImg,
   bullets: [
     {
@@ -46,7 +46,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "THE SOLUTION",
-  desc: "Our unique fogging treatment allows us to eliminate both Surface AND Airborne Mold infestation!",
+  desc: "Our unique fogging treatment allows us to eliminate toxic Surface AND Airborne Mold for good!",
   image: benefitTwoImg,
   bullets: [
     {

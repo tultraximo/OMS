@@ -23,7 +23,7 @@ import white_ape from "../../public/img/whiteape.png";
 
 const benefitOne = {
   title: "THE PROBLEM",
-  desc: "You have a mold problem. Toxic mold is wreaking havoc in your home. Making it unsafe.",
+  desc: "Mold always exists in the air before it becomes visible on any surfaces. It's not enough to just remove the surface. ",
   image: benefitOneImg,
   bullets: [
     {
@@ -38,7 +38,7 @@ const benefitOne = {
     },
     {
       title: "VISIBLE and INVISIBLE mold need to be eliminated!",
-      desc: "Unless both the Air and Surface are treated the problem will stay",
+      desc: "Unless both the Air and Surface are treated, the problem will stay.",
       icon: <NoSymbolIcon />,
     },
   ],

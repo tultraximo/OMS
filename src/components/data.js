@@ -46,7 +46,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "THE SOLUTION",
-  desc: "Our unique fogging treatment allows us to eliminates both Surface AND Airborne Mold infestation!",
+  desc: "Our unique fogging treatment allows us to eliminate both Surface AND Airborne Mold infestation!",
   image: benefitTwoImg,
   bullets: [
     {

@@ -11,7 +11,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BREEZi: Mold & Odor ",
+  title: "OMS: Organic Mold Solutions",
   description: "Mold and Odor Removal Specialists.",
   icons: {
     icon: "/favicon.ico", // Update with the path to your favicon

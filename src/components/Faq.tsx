@@ -37,7 +37,7 @@ export const Faq = () => {
 const faqdata = [
   {
     question: "Is this product safe?",
-    answer: "Yes, this template is completely safe",
+    answer: "Yes, 100% safe. USDA Organic.",
   },
   {
     question: "How is your service different from other mold or odor removal professional's?",

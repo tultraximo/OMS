@@ -9,12 +9,12 @@ export const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="flex items-center justify-center w-full">
           <div className="max-w-6xl">
-            <h1 className="text-l font-bold leading-snug tracking-tight text-gray-800 md:text-3xl lg:text-5xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white flex flex-wrap">
-              Breezi: Organic Mold and Odor Removal
+            <h1 className="text-l font-bold leading-snug tracking-tight text-gray-800 md:text-3xl lg:text-5xl lg:leading-tight xl:text-6xl xl:leading-tight justify-center dark:text-white flex flex-wrap">
+              OMS: Organic Mold Solutions
             </h1>
-            <p className="pt-5 text-l leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
-              Home of Breezi Cloudburst Technology
-            </p>
+            {/* <p className="pt-5 text-l leading-tight text-gray-700 md:text-2xl lg:text-4xl xl:text-5xl dark:text-gray-300 justify-center flex flex-wrap">
+              Home of OMS Cloudburst Technology
+            </p> */}
           </div>
         </div>
         {/* <div className="flex items-center justify-center w-full lg:w-1/2"></div> */}
@@ -22,8 +22,8 @@ export const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">2000+</span>{" "}
-            customers worldwide
+            Trusted by <span className="text-indigo-600">50+</span>{" "}
+            customers in the New York / New Jersey Areas
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
